@@ -1,0 +1,30 @@
+{
+  "Random Forest": {
+    "class_weight": "balanced",
+    "max_depth": 5,
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "n_estimators": 50
+  },
+  "Logistic Regression": {
+    "C": 0.001,
+    "class_weight": "balanced",
+    "l1_ratio": 0.1,
+    "penalty": "l1",
+    "solver": "liblinear"
+  },
+  "Neural Network": {
+    "hidden_layer_sizes": [
+      100,
+      50,
+      25
+    ],
+    "learning_rate_init": 0.0030214464853521813,
+    "alpha": 0.036736184329369176,
+    "batch_size": 64,
+    "max_iter": 500,
+    "early_stopping": true,
+    "validation_fraction": 0.2,
+    "solver": "adam"
+  }
+}

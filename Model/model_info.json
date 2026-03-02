@@ -1,0 +1,66 @@
+{
+  "feature_names": [
+    "gender",
+    "age",
+    "hypertension",
+    "heart_disease",
+    "ever_married",
+    "work_type",
+    "Residence_type",
+    "avg_glucose_level",
+    "bmi",
+    "smoking_status"
+  ],
+  "label_encoders": {
+    "gender": [
+      "Female",
+      "Male"
+    ],
+    "ever_married": [
+      "No",
+      "Yes"
+    ],
+    "work_type": [
+      "Govt_job",
+      "Never_worked",
+      "Private",
+      "Self-employed",
+      "children"
+    ],
+    "Residence_type": [
+      "Rural",
+      "Urban"
+    ],
+    "smoking_status": [
+      "Unknown",
+      "formerly smoked",
+      "never smoked",
+      "smokes"
+    ]
+  },
+  "scaler_mean": [
+    0.41350623929532665,
+    43.259368730119895,
+    0.09469048201614877,
+    0.05676535356006851,
+    0.6598972351357965,
+    2.171764130168828,
+    0.5025691216050893,
+    100.94578297039392,
+    28.672840714460484,
+    1.3709322241252753
+  ],
+  "scaler_scale": [
+    0.4924620080363182,
+    22.639473103315016,
+    0.2927869440936501,
+    0.2313937082015605,
+    0.4737434687633465,
+    1.093994727173449,
+    0.49999339957061256,
+    32.966401284700964,
+    7.12070466115355,
+    1.0675344210876847
+  ],
+  "best_model": "Neural Network"
+}

@@ -1,0 +1,5 @@
+ stroke_model = StrokePredictionModel('C:/Users/August/PycharmProjects/stroke_prediction/data/healthcare-dataset-stroke-data.csv')
+
+ "C:/Users/August/PycharmProjects/stroke_prediction/Model/best_stroke_model.pkl"
+
+ "C:/Users/August/PycharmProjects/stroke_prediction/Model/model_info.json"
